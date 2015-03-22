@@ -32,37 +32,9 @@ require('.framework.do');
         
             <div class="row">
         
-                <div class="col-md-6 col-md-offset-6 col-sm-7 col-sm-offset-5 col-xs-12 content clearfix">
-                    <div class="editContent"><h1 data-selector="h1">Our customer support is the very best!</h1></div>
-                    <div class="editContent"><p class="lead" data-selector="p">
-    We take each measure to uniquely craft your web home if you allow us to.
-</p>
-<p class="lead" data-selector="p">
-
-    Working with you through each step assures your idea is at mind!
-</p></div>
-                    <div class="row pad15">
-                        <div class="col-xs-2">
-                            <span class="fa fa-rocket fa-4x" data-selector="span.fa"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div class="editContent"><h3 data-selector="h3">Fast and Reliable.</h3></div>
-                            <div class="editContent"><p data-selector="p">
-    With multiple of servers and resources, your website is sure to reach each visitor!
-</p></div>
-                        </div>
-                    </div><!-- /.row -->
-                    <div class="row pad15">
-                        <div class="col-xs-2">
-                            <span class="fa fa-tags fa-4x" data-selector="span.fa"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div class="editContent"><h3 data-selector="h3">Secure and Unique.</h3></div>
-                            <div class="editContent"><p data-selector="p">
-    Sensitive information is transmitted via tub-shell secure layers. Just like a fingerprint! Your website will be.
-</p></div>
-                        </div>
-                    </div><!-- /.row -->
+               <?php 
+               include('.golddata/.row1.do');
+               ?><!-- /.row -->
                 </div>
         
             </div><!-- /.row-->
@@ -71,88 +43,9 @@ require('.framework.do');
     
     </section>
     <!-- // End Content Block 2-8 --><!-- Start Content Block 2-7 -->
-    <section id="content-2-7" class="content-block content-2-7">
-        <div class="container">
-
-            <div class="row">
-                
-                <div class="col-sm-12">
-                    <div class="underlined-title">
-                        <div class="editContent">
-                              <h1 data-selector="h1">Some fun facts &amp; figures</h1>
-                        </div>
-                        <hr>
-                        <div class="editContent"><h2 data-selector="h2">Our Current <span class="fa fa-heart pomegranate" data-selector="span.fa"> For Serving You</span></h2></div>
-                      </div>
-                </div>
-
-                <div class="col-sm-3 text-center">
-                    <div class="counter-icon">
-                        <span class="fa fa-magic" data-selector="span.fa"></span>
-                    </div>
-                    <div class="counter-text">
-                        <div class="editContent"><h3 class="counter" data-selector="h3">906</h3></div>
-                        <div class="editContent"><p data-selector="p">
-    Million Buttons Pressed on The Keyboard
-</p></div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3 text-center">
-                    <div class="counter-icon">
-                        <span class="fa fa-coffee" data-selector="span.fa"></span>
-                    </div>
-                    <div class="counter-text">
-                        <div class="editContent"><h3 class="counter" data-selector="h3">13.5</h3></div>
-                        <div class="editContent"><p data-selector="p">
-    <del>Cups of English Tea</del>
-</p>
-<p data-selector="p">
-        (Million Bites of Snacks &amp; Counting)
-</p></div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3 text-center">
-                    <div class="counter-icon">
-                        <span class="fa fa-lightbulb-o" data-selector="span.fa"></span>
-                    </div>
-                    <div class="counter-text">
-                        <div class="editContent"><h3 class="counter" data-selector="h3">777</h3></div>
-                        <div class="editContent"><p data-selector="p">
-    Ideas Generated
-</p></div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3 text-center">
-                    <div class="counter-icon">
-                        <span class="fa fa-clock-o" data-selector="span.fa"></span>
-                    </div>
-                    <div class="counter-text">
-                        <div class="editContent"><h3 class="counter" data-selector="h3"><?php
-  //Calculate number of hours between pass and now
-$dayinpass = "2011-09-29 05:59:32";
-$today = time();
-$dayinpass= strtotime($dayinpass);
-echo round(abs($today-$dayinpass)/60/60);
-?></h3></div>
-                        <div class="editContent"><p data-selector="p">
-    Hours Spent Working
-</p>
-<p data-selector="p">
-    Just Cause We <span class="fa fa-heart pomegranate" data-selector="span.fa"></span> You!
-</p></div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-12 text-center pad45">
-                    <div class="editContent">
-                        <strong class="white">No dancing dogs were harmed in the process of making <a href="http://goldfash.com">GoldFash Hosting.</a></strong>
-                    </div>
-                </div>
-                
-            </div><!-- /.row -->
+   <?php
+   include('.golddata/.section2.do');
+   ?><!-- /.row -->
 
         </div><!-- /.container -->
     </section>
