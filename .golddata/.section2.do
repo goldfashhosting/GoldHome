@@ -59,7 +59,7 @@
                     <div class="counter-text">
                         <div class="editContent"><h3 class="counter" data-selector="h3"><?php
   //Calculate number of hours between pass and now
-echo $hoursworked;
+echo round(abs($today-$dayinpass)/60/60);
 ?></h3></div>
                         <div class="editContent"><p data-selector="p">
     Hours Spent Working
