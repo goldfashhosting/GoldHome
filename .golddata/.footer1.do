@@ -1,6 +1,6 @@
 <section class="content-block-nopad bg-deepocean">
         <div class="container footer-1-4">
-                        
+       <?=$IMG_Global?>              
 <!-- Web Analytics Tracker -->
 <script type="text/javascript">
 //<![CDATA[
