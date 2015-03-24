@@ -1,3 +1,4 @@
+<?=$IMG_Global?>
 <section id="content-2-7" class="content-block content-2-7">
         <div class="container">
 
