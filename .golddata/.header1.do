@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <img src="https://rfig.us/.l/aieu" class="brand-img img-responsive" data-selector="img" data-echo="https://s3-ap-southeast-2.amazonaws.com/goldfash/GOLD-FASH-150x150.png" width="95" height="95" onerror="this.onerror=null;this.src='http://imax.rfig.us/k';"/>
+                    <img src="http://imax.rfig.us/aj" class="brand-img img-responsive" data-selector="img" data-echo="https://s3-ap-southeast-2.amazonaws.com/goldfash/GOLD-FASH-150x150.png" onerror="this.onerror=null;this.src='http://imax.rfig.us/k';"/>
                 </div>
                 <!-- Navigation -->
                 <div class="collapse navbar-collapse">
@@ -90,3 +90,4 @@ urlencode('http://goldfash.com/.bin/.express_mail.php'));
         
         
     </header>
+    
