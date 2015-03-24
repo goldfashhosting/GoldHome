@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<?=$JS_Global['loginasp']?>
 <script type="text/javascript">
 $(function() {
     $('#client-login').bind('submit',function(event){
